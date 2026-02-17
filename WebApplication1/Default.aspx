@@ -13,9 +13,13 @@
         .calculator {
             margin-left: 300px;
             margin-bottom: 30px;
-            width: 500px;
+            min-width: 300px;
             height: 600px;
             padding: 30px;
+        }
+
+        .price-field {
+            min-width: 100px;
 
         }
 

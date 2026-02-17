@@ -21,7 +21,7 @@ namespace WebApplication1
             double discountPrice = price * 0.15;
             double finalPrice = price - discountPrice;
 
-            lblDiscount.Text = $"Discounted: {discountPrice}";
+            lblDiscount.Text = $"Discount: {discountPrice}";
             lblResult.Text = $"Final Price: {finalPrice}";
         }
     }
