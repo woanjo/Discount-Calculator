@@ -21,7 +21,6 @@
         .price-field {
             min-width: 50px;
             border-radius: 7px;
-
         }
 
     </style>
