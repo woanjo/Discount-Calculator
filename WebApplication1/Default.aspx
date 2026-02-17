@@ -1,12 +1,20 @@
 ﻿<%@ Page Title="Home Page" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="Default.aspx.cs" Inherits="WebApplication1._Default" %>
 
 <asp:Content ID="BodyContent" ContentPlaceHolderID="MainContent" runat="server">
+    <style>
+        .row {
+            font: verdana;
+            margin-top: 50px;
+            text-align: center;
+        }
 
+
+    </style>
     <main>
         <section class="row" aria-labelledby="aspnetTitle">
             <h2 id="title">DISCOUNT CALCULATOR</h2>
         </section>
-        <div class="calculator" style="height: 69px">
+        <div class="calculator" style="height: 98px">
             <asp:Label ID="origPrice" runat="server" Text="Label">Original Price:</asp:Label>
             <asp:TextBox ID="price1" runat="server" CssClass="price-field"></asp:TextBox>
             <asp:Button ID="calcBtn" runat="server" Text="Calculate" CssClass="calc-btn" OnClick="calcBtn_Click"></asp:Button>
