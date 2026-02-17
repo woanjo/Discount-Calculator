@@ -7,8 +7,15 @@
             text-align: center;
         }
 
+        #title {
+            font-family: 'Times New Roman';
+        }
         .calculator {
-            margin-top: 30px;
+            margin-left: 300px;
+            margin-bottom: 30px;
+            width: 500px;
+            height: 600px;
+            padding: 30px;
 
         }
 
@@ -17,7 +24,7 @@
         <section class="row" aria-labelledby="aspnetTitle">
             <h2 id="title">DISCOUNT CALCULATOR</h2>
         </section>
-        <div class="calculator" style="height: 98px">
+        <div class="calculator" style="height: 121px">
             <asp:Label ID="origPrice" runat="server" Text="Label">Original Price:</asp:Label>
             <asp:TextBox ID="price1" runat="server" CssClass="price-field"></asp:TextBox>
             <asp:Button ID="calcBtn" runat="server" Text="Calculate" CssClass="calc-btn" OnClick="calcBtn_Click"></asp:Button>
