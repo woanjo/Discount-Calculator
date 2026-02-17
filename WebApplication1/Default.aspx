@@ -21,11 +21,12 @@
         .lbl {
             font-family: Helvetica;
             font-weight: bold;
-           font-size: 15px;
+            font-size: 20px;
         }
         .price-field {
             min-width: 50px;
             border-radius: 7px;
+            font-size: 15px;
         }
 
     </style>
