@@ -9,10 +9,12 @@
         <div class="calculator" style="height: 69px">
             <asp:Label ID="origPrice" runat="server" Text="Label">Original Price:</asp:Label>
             <asp:TextBox ID="price1" runat="server" CssClass="price-field"></asp:TextBox>
+            <asp:Button ID="calcBtn" runat="server" Text="Calculate" CssClass="calc-btn" OnClick="calcBtn_Click"></asp:Button>
 
             <br />
-            <asp:Label ID="discount" runat="server" Text="Label">Discount: </asp:Label>
-            <asp:TextBox ID="price2" runat="server" CssClas="price-field"></asp:TextBox>
+            <asp:Label ID="lblDiscount" runat="server" Text="" CssClass="lblDiscount"></asp:Label>
+            <br />
+            <asp:Label ID="lblResult" runat="server" Text="" CssClass="result-text"></asp:Label>
 
 
         </div>

@@ -13,5 +13,16 @@ namespace WebApplication1
         {
 
         }
+
+        protected void calcBtn_Click(object sender, EventArgs e)
+        {
+            double price = double.Parse(price1.Text);
+
+            double discountPrice = price * 0.15;
+            double finalPrice = price - discountPrice;
+
+            lblDiscount.Text = $"Discounted: {discountPrice}";
+            lblResult.Text = $"Final Price: {finalPrice}";
+        }
     }
 }

@@ -33,21 +33,30 @@ namespace WebApplication1
         protected global::System.Web.UI.WebControls.TextBox price1;
 
         /// <summary>
-        /// discount control.
+        /// calcBtn control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label discount;
+        protected global::System.Web.UI.WebControls.Button calcBtn;
 
         /// <summary>
-        /// price2 control.
+        /// lblDiscount control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox price2;
+        protected global::System.Web.UI.WebControls.Label lblDiscount;
+
+        /// <summary>
+        /// lblResult control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label lblResult;
     }
 }
