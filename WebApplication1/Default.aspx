@@ -3,11 +3,14 @@
 <asp:Content ID="BodyContent" ContentPlaceHolderID="MainContent" runat="server">
     <style>
         .row {
-            font: verdana;
             margin-top: 50px;
             text-align: center;
         }
 
+        .calculator {
+            margin-top: 30px;
+
+        }
 
     </style>
     <main>
