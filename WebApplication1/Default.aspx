@@ -19,7 +19,8 @@
         }
 
         .price-field {
-            min-width: 100px;
+            min-width: 50px;
+            border-radius: 7px;
 
         }
 
