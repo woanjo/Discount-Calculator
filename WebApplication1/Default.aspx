@@ -29,6 +29,10 @@
             font-size: 15px;
         }
 
+        .result-lbl {
+            font-size: 20px;
+        }
+
     </style>
     <main>
         <section class="row" aria-labelledby="aspnetTitle">
@@ -40,9 +44,9 @@
             <asp:Button ID="calcBtn" runat="server" Text="Calculate" CssClass="calc-btn" OnClick="calcBtn_Click"></asp:Button>
 
             <br />
-            <asp:Label ID="lblDiscount" runat="server" Text="" CssClass="lblDiscount"></asp:Label>
+            <asp:Label ID="lblDiscount" runat="server" Text="" CssClass="result-lbl"></asp:Label>
             <br />
-            <asp:Label ID="lblResult" runat="server" Text="" CssClass="result-text"></asp:Label>
+            <asp:Label ID="lblResult" runat="server" Text="" CssClass="result-lbl"></asp:Label>
 
 
         </div>
