@@ -18,7 +18,7 @@
             padding: 30px;
         }
         
-        .lbl {
+        .orig-lbl {
             font-family: Helvetica;
             font-weight: bold;
             font-size: 20px;
@@ -35,7 +35,7 @@
             <h2 id="title">DISCOUNT CALCULATOR</h2>
         </section>
         <div class="calculator" style="height: 121px">
-            <asp:Label ID="origPrice" runat="server" Text="Label" CssClass="lbl">Original Price:</asp:Label>
+            <asp:Label ID="origPrice" runat="server" Text="Label" CssClass="orig-lbl">Original Price:</asp:Label>
             <asp:TextBox ID="price1" runat="server" CssClass="price-field"></asp:TextBox>
             <asp:Button ID="calcBtn" runat="server" Text="Calculate" CssClass="calc-btn" OnClick="calcBtn_Click"></asp:Button>
 
